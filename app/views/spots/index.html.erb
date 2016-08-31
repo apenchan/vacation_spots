@@ -1,0 +1,9 @@
+Hello
+<% @spots.each do |spot| %>
+<ul>
+<li><%= image_tag spot.img %></li>
+<li><%= spot.city %></li>
+<li><%= spot.country %></li>
+<%= link_to "Learn more about destination", spot_path(spot.id) %>
+</ul>
+<%end%>
