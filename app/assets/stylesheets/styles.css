@@ -38,6 +38,6 @@ li {
   display: block;
   font-size: 30px;
 }
-#spot_description{
-  font-size: 40px;
+.cities {
+  text-align: center;
 }

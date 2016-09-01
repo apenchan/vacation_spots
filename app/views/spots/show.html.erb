@@ -1,7 +1,7 @@
-<h4>What to do in <%= @spot.city %></h4
+<h3>What to do in <%= @spot.city %></h3>
 <!-- had to set instance variable in order for the name to appear -->
-<ul>
-<%= image_tag @spot.img %>
+<ul class="cities">
+<li><%= image_tag @spot.img %></li>
 <li><%= @spot.country %></li>
 <li><%= @spot.description %></li>
 <li><%= link_to "Give this location a better description!", edit_spot_path(@spot.id) %></li>
