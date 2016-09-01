@@ -1,0 +1,43 @@
+@font-face{
+  font-family: "LANECANE.ttf";
+  src: url(../assets/LANECANE.ttf);
+}
+@font-face{
+  font-family: "PrettyGirlsScriptDemo";
+  src: url(../assets/PrettyGirlsScriptDemo.ttf);
+}
+@font-face{
+  font-family: "Gravity";
+  src: url(../assets/Gravity-Regular.otf);
+}
+h3 {
+  text-align: center;
+  font-family: "LANECANE.ttf";
+  font-size: 30px;
+}
+img {
+  width: 500px;
+  height: 350px;
+  border: solid black 2px;
+}
+ul{
+  list-style-type: none;
+  display: inline-block;
+}
+li {
+  font-family: "Gravity";
+  font-size: 15px;
+}
+.new-location{
+  font-family: "Gravity";
+  font-size: 17px;
+  padding: 20px;
+}
+.form2 {
+  text-align: center;
+  display: block;
+  font-size: 30px;
+}
+#spot_description{
+  font-size: 40px;
+}

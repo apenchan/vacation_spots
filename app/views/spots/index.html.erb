@@ -1,4 +1,4 @@
-Hello
+<h3>Choose Your Destination!</h3>
 <% @spots.each do |spot| %>
 <ul>
 <li><%= image_tag spot.img %></li>
@@ -7,4 +7,6 @@ Hello
 <%= link_to "Learn more about destination", spot_path(spot.id) %>
 </ul>
 <%end%>
+<div class="new-location">
 <%= link_to "Add a new vacation spot!", new_spot_path %>
+</div>

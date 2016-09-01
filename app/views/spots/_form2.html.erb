@@ -1,7 +1,9 @@
 <%= form_for @spot do |form| %>
-<%= form.text_field :city, placeholder: "city" %>
-<%= form.text_field :country, placeholder: "country" %>
-<%= form.text_field :img, placeholder: "image url" %>
-<%= form.text_field :description, placeholder: "description" %>
-<%= form.submit %>
+<ul class="form2">
+<li><%= form.text_field :city, placeholder: "city" %></li>
+<li><%= form.text_field :country, placeholder: "country" %></li>
+<li><%= form.text_field :img, placeholder: "image url" %></li>
+<li><%= form.text_field :description, placeholder: "description" %></li>
+<li><%= form.submit %></li>
+</ul>
 <%end%>
